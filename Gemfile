@@ -17,9 +17,9 @@ gem 'pundit'
 gem 'simple_form'
 gem 'unicorn'
 gem 'unicorn-rails'
+gem 'pg'
 
 group :development do
-  gem 'sqlite3'
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
   gem 'guard-bundler'
@@ -46,7 +46,6 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
   gem 'sprockets_better_errors'
 end

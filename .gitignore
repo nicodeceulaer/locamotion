@@ -80,3 +80,8 @@ pickle-email-*.html
 
 # Ignore application configuration
 /config/application.yml
+
+# ignore binary stuff
+Gemfile.lock
+/bin/
+
